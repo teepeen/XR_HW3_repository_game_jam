@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GripRight
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Cube
+    m_Weight: 0
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430"
+    m_Weight: 0
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm"
+    m_Weight: 0
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand"
+    m_Weight: 0
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Index_1"
+    m_Weight: 0
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Index_1/Index_2"
+    m_Weight: 0
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Index_1/Index_2/Index_3"
+    m_Weight: 0
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Index_1/Index_2/Index_3/Index_3_end"
+    m_Weight: 0
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Little_1"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Little_1/Little_2"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Little_1/Little_2/Little_3"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Little_1/Little_2/Little_3/Little_3_end"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Middle_1"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Middle_1/Middle_2"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Middle_1/Middle_2/Middle_3"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Middle_1/Middle_2/Middle_3/Middle_3_end"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Ring_1"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Ring_1/Ring_2"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Ring_1/Ring_2/Ring_3"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Ring_1/Ring_2/Ring_3/Ring_3_end"
+    m_Weight: 1
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Thumb_1"
+    m_Weight: 0
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Thumb_1/Thumb_2"
+    m_Weight: 0
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Thumb_1/Thumb_2/Thumb_3"
+    m_Weight: 0
+  - m_Path: "\u0410\u0440\u043C\u0430\u0442\u0443\u0440\u0430/Arm/Hand/Thumb_1/Thumb_2/Thumb_3/Thumb_3_end"
+    m_Weight: 0

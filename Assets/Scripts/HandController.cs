@@ -1,23 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class AnimateHandOnInput : MonoBehaviour
+[RequireComponent(typeof(ActionBasedController))]
+public class HandController : MonoBehaviour
 {
-    public InputActionProperty pinchAnimationAction;
-    public InputActionProperty gripAnimationAction;
-    public Animator handAnimator;
+    ActionBasedController controller;
+
+    public Hand hand;
+    // Start is called before the first frame update
+    void Start()
+    {
+        controller = GetComponent<ActionBasedController>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        float triggerValue = pinchAnimationAction.action.ReadValue<float>();
-        handAnimator.SetFloat("Trigger", triggerValue);
-
-        float gripValue = gripAnimationAction.action.ReadValue<float>();
-        handAnimator.SetFloat("Grip", gripValue);
+        hand.SetGrip(controller.selectAction.action.ReadValue<float>());
+        hand.SetTrigger(controller.activateAction.action.ReadValue<float>());
     }
 }
-
