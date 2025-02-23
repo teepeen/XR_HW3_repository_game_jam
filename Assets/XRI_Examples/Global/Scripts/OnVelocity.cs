@@ -25,12 +25,12 @@ namespace UnityEngine.XR.Content.Interaction
         UnityEvent m_OnEnd = new UnityEvent();
 
         /// <summary>
-        /// Event that triggers when speed meets the begin threshold.
+        /// Event that triggers when animationSpeed meets the begin threshold.
         /// </summary>
         public UnityEvent onBegin => m_OnBegin;
 
         /// <summary>
-        /// Event that triggers when the speed dips below the end threshold.
+        /// Event that triggers when the animationSpeed dips below the end threshold.
         /// </summary>
         public UnityEvent onEnd => m_OnEnd;
 

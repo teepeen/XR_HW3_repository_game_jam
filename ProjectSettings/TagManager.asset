@@ -8,14 +8,15 @@ TagManager:
   - Flame
   - Water
   - Destroyer
+  - Arrow
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Bow
   - Water
   - UI
-  - 
+  - Arrow
   - 
   - 
   - 

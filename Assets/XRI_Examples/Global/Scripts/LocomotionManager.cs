@@ -44,7 +44,7 @@ namespace UnityEngine.XR.Content.Interaction
             Snap,
 
             /// <summary>
-            /// Use continuous turning to smoothly rotate the direction you are facing by a specified speed.
+            /// Use continuous turning to smoothly rotate the direction you are facing by a specified animationSpeed.
             /// </summary>
             Smooth,
         }
